@@ -10365,8 +10365,7 @@ local NamesBot = (Redis:get(TheMica.."Mica:Name:Bot") or "ميكا")
 local BotName = {
 " كول حبيبي ترا اسمي "..NamesBot,
 "ها يعمري اسمي "..NamesBot.. "",
-"وردة اامرني"
-"عيونه؟"
+"وردة اامرني",
 "مو كافي لحيت ؟"
 }
 return LuaTele.sendText(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md",true)   
