@@ -9912,15 +9912,15 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 video = "https://t.me/S22SS2/27"
 local T =[[
-Welcome to Source : [𝑀𝐸𝐺𝐺𝐴 𝑆𝑂𝑈𝑅𝑆𝐸](https://t.me/KKKK5K)
+Welcome to  Source : [𝑀𝐸𝐺𝐺𝐴 𝑆𝑂𝑈𝑅𝑆𝐸](https://t.me/KKKK5K)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝗂𝗇𝗍𝖾𝗋𝗇𝖺𝗍𝗂𝗈𝗇𝖺𝗅 𝗉𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋 †', url = "https://t.me/kidcrl"},{text = '𝗌𝗈𝗎𝗋𝖼𝖾 †', url = "https://t.me/KKKK5K"}
+{text = '𝗂𝗇𝗍𝖾𝗋𝗇𝖺𝗍𝗂𝗈𝗇𝖺𝗅 𝗉𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋 †', url = "https://t.me/kidcrl"},{text = '𝗌𝗈𝗎𝗋𝖼𝖾 †', url = "https://t.me/MEGGAS"}
 },
 {
-{text = 'ُ𝗍𝗐𝗌 †', url = "https://t.me/YlI5Y"}
+{text = 'ُ𝗍𝗐𝗌 †', url = "https://t.me/youdream"}
 },
 {
 {text = '𝑀𝐸𝐺𝐺𝐴 𝑆𝑂𝑈𝑅𝑆𝐸', url = "https://t.me/KKKK5K"}
@@ -9941,13 +9941,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = msg.sender.user_id..'/help1'}, {text = ' •❶•', data = msg.sender.user_id..'/help2'}, 
+{text = '•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘•', data = msg.sender.user_id..'/help1'}, {text = ' •𝐀𝐃𝐌𝐈𝐍•', data = msg.sender.user_id..'/help2'}, 
 },
 {
-{text = '•❷•', data = msg.sender.user_id..'/help3'}, {text = '•❸•', data = msg.sender.user_id..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = msg.sender.user_id..'/help3'}, {text = '•𝐎𝐖𝐍𝐄𝐑•', data = msg.sender.user_id..'/help4'}, 
 },
 {
-{text = '•❹•', data = msg.sender.user_id..'/help5'}, {text = '•❺•', data = msg.sender.user_id..'/help6'}, 
+{text = '•𝐃𝐄𝐕•', data = msg.sender.user_id..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = msg.sender.user_id..'/help6'}, 
 },
 {
 {text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', data = msg.sender.user_id..'/NoNextSeting'}, {text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌  ', data = msg.sender.user_id..'/listallAddorrem'}, 
@@ -9966,7 +9966,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n اشترك في القناة عزيزي 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
@@ -9986,7 +9986,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n اشترك في القناة عزيزي 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
@@ -10006,7 +10006,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n اشترك في القناة عزيزي 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
@@ -10026,7 +10026,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n اشترك في القناة عزيزي 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
@@ -10046,7 +10046,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n اشترك في القناة عزيزي 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
@@ -10319,7 +10319,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 print('Chat Id : '..msg_chat_id)
 print('User Id : '..msg_user_send_id)
@@ -10332,7 +10332,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Change:Name:Bot"..msg.sender.user_id,300,true) 
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰ ارسل لي الاسم الان ","md",true)  
@@ -10343,7 +10343,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:del(TheMica.."Mica:Name:Bot") 
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰تم حذف اسم البوت ","md",true)   
@@ -10354,8 +10354,8 @@ local NameBots = {
 "ها "..NamesBot.. " شتريد؟",
 "أჂ̤ أჂ̤ هياتني اني",
 "موجود بس لتصيح",
-"لتــلح دا احجي ويه بنات ميكا بعدين اجاوبك",
-"راح نموت بكورونا ونته بعدك تصيح "..NamesBot,
+"داسولف فدشويه اراسلك",
+"يبو شكد تلغي "..NamesBot,
 'يمعود والله نعسان'
 }
 return LuaTele.sendText(msg_chat_id,msg_id, NameBots[math.random(#NameBots)],"md",true)  
@@ -10363,9 +10363,11 @@ end
 if text == "بوت" then
 local NamesBot = (Redis:get(TheMica.."Mica:Name:Bot") or "ميكا")
 local BotName = {
-"دحك لك ترا اسمي "..NamesBot,
+" كول حبيبي ترا اسمي "..NamesBot,
 "ها يعمري اسمي "..NamesBot.. "",
-"ها يلكاربج؟"
+"وردة اامرني"
+"عيونه؟"
+"مو كافي لحيت ؟"
 }
 return LuaTele.sendText(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md",true)   
 end
@@ -10375,7 +10377,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(TheMica.."Mica:Num:User:Pv")   
 local x = 0
@@ -10399,7 +10401,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n  عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(TheMica.."Mica:ChekBotAdd")   
 local x = 0
@@ -11190,7 +11192,7 @@ end
 if text and text:match("^اضف مجوهرات (%d+)$") and msg.reply_to_message_id ~= 0 then
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 if not msg.Addictive then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص { '..Controller_Num(7)..' }* ',"md",true)  
@@ -11209,7 +11211,7 @@ end
 if text and text:match("^اضف رسائل (%d+)$") and msg.reply_to_message_id ~= 0 then
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 if not msg.Addictive then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص { '..Controller_Num(7)..' }* ',"md",true)  
@@ -11240,7 +11242,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:set(TheMica.."Mica:Get:Reides:Commands:Group"..msg_chat_id..":"..'تعط','تعطيل الايدي بالصوره')
 Redis:set(TheMica.."Mica:Get:Reides:Commands:Group"..msg_chat_id..":"..'تفع','تفعيل الايدي بالصوره')
@@ -11292,7 +11294,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 print('Chat Id : '..msg_chat_id)
 print('User Id : '..msg_user_send_id)
@@ -11411,7 +11413,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(TheMica.."Mica:Num:User:Pv")   
 local x = 0
@@ -11435,7 +11437,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(TheMica.."Mica:ChekBotAdd")   
 local x = 0
@@ -11475,7 +11477,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Change:Start:Bot"..msg.sender.user_id,300,true) 
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰ ارسل لي كليشه Start الان ","md",true)  
@@ -11486,7 +11488,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:del(TheMica.."Mica:Start:Bot") 
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰تم حذف كليشه Start ","md",true)   
@@ -11497,7 +11499,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Change:Name:Bot"..msg.sender.user_id,300,true) 
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰ ارسل لي الاسم الان ","md",true)  
@@ -11508,7 +11510,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:del(TheMica.."Mica:Name:Bot") 
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰تم حذف اسم البوت ","md",true)   
@@ -11519,7 +11521,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:set(TheMica..'Mica:Num:Add:Bot',text:match("تعين عدد الاعضاء (%d+)$") ) 
 LuaTele.sendText(msg_chat_id,msg_id,'*⌔︰ تم تعيين عدد اعضاء تفعيل البوت اكثر من : '..text:match("تعين عدد الاعضاء (%d+)$")..' عضو *',"md",true)  
@@ -11529,7 +11531,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 LuaTele.sendText(msg_chat_id,msg_id,'*⌔︰عدد احصائيات البوت الكامله \n━─━─━─━─━─━─━\n⌔︰عدد المجموعات : '..(Redis:scard(TheMica..'Mica:ChekBotAdd') or 0)..'\n⌔︰عدد المشتركين : '..(Redis:scard(TheMica..'Mica:Num:User:Pv') or 0)..'*',"md",true)  
 end
@@ -11539,7 +11541,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:set(TheMica..'Mica:GetTexting:DevTheMica'..msg_chat_id..':'..msg.sender.user_id,true)
 return LuaTele.sendText(msg_chat_id,msg_id,'⌔︰ ارسل لي الكليشه الان')
@@ -11550,7 +11552,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:del(TheMica..'Mica:Texting:DevTheMica')
 return LuaTele.sendText(msg_chat_id,msg_id,'⌔︰ تم حذف كليشه المطور')
@@ -11561,7 +11563,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:set(TheMica.."Mica:Set:Rd"..msg.sender.user_id..":"..msg_chat_id,true)
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰ارسل الان الكلمه لاضافتها في ردود المطور ","md",true)  
@@ -11572,7 +11574,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:set(TheMica.."Mica:Set:On"..msg.sender.user_id..":"..msg_chat_id,true)
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︰ارسل الان الكلمه لحذفها من ردود المطور","md",true)  
@@ -11583,7 +11585,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Broadcasting:Users" .. msg_chat_id .. ":" .. msg.sender.user_id, 600, true) 
 LuaTele.sendText(msg_chat_id,msg_id,[[
@@ -11603,7 +11605,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Broadcasting:Groups" .. msg_chat_id .. ":" .. msg.sender.user_id, 600, true) 
 LuaTele.sendText(msg_chat_id,msg_id,[[
@@ -11623,7 +11625,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Broadcasting:Groups:Pin" .. msg_chat_id .. ":" .. msg.sender.user_id, 600, true) 
 LuaTele.sendText(msg_chat_id,msg_id,[[
@@ -11643,7 +11645,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Broadcasting:Groups:Fwd" .. msg_chat_id .. ":" .. msg.sender.user_id, 600, true) 
 LuaTele.sendText(msg_chat_id,msg_id,"⌔︰ارسل لي التوجيه الان\n⌔︰ليتم نشره في المجموعات","md",true)  
@@ -11656,7 +11658,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 Redis:setex(TheMica.."Mica:Broadcasting:Users:Fwd" .. msg_chat_id .. ":" .. msg.sender.user_id, 600, true) 
 LuaTele.sendText(msg_chat_id,msg_id,"⌔︰ارسل لي التوجيه الان\n⌔︰ليتم نشره الى المشتركين","md",true)  
@@ -11669,7 +11671,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︰هاذا الامر يخص 
 end
 if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '٬ 𝖼𝗅𝗂𝖼𝗄 𝗍𝗈 𝗌𝗎𝖻𝗌𝖼𝗋??𝖻𝖾 † ٫ ', url = 't.me/'..Redis:get(TheMica..'Mica:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n 𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗉𝗋𝗈 🦎.*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg.chat_id,msg.id,'*\n عزيزي اشترك في القناة 🦎.*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(TheMica.."Mica:List:Rd:Sudo")
 text = "\n📝︰قائمة ردود المطور \n━─━─━─━─━─━─━\n"
@@ -12434,13 +12436,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = IdUser..'/help1'}, {text = '•❶•', data = IdUser..'/help2'}, 
+{text = '•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘•', data = IdUser..'/help1'}, {text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help2'}, 
 },
 {
-{text = '•❷•', data = IdUser..'/help3'}, {text = '•❸•', data = IdUser..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = IdUser..'/help3'}, {text = '•𝐃𝐄𝐕•', data = IdUser..'/help4'}, 
 },
 {
-{text = '•❹•', data = IdUser..'/help5'}, {text = '•❺•', data = IdUser..'/help6'}, 
+{text = '•𝐎𝐖𝐍𝐄𝐑•', data = IdUser..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = IdUser..'/help6'}, 
 },
 {
 {text = '𝗆𝖺𝗂𝗇 𝗅𝗂𝗌𝗍 ⛓️. ', data = IdUser..'/helpall'},
@@ -12451,7 +12453,7 @@ data = {
 }
 }
 local TextHelp = [[*
-⌔︰•⓿• اتبع مايلي ...
+⌔︰•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘• اتبع مايلي ...
 ━─━─━─━─━─━─━
 ⌔︰قفل ، فتح ˓ الامر 
 ⌔︰تستطيع قفل حمايه كما يلي ...
@@ -12492,13 +12494,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = IdUser..'/help1'}, {text = '•❶•', data = IdUser..'/help2'}, 
+{text = '•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘•', data = IdUser..'/help1'}, {text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help2'}, 
 },
 {
-{text = '•❷•', data = IdUser..'/help3'}, {text = '•❸•', data = IdUser..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = IdUser..'/help3'}, {text = '•𝐃𝐄𝐕•', data = IdUser..'/help4'}, 
 },
 {
-{text = '•❹•', data = IdUser..'/help5'}, {text = '•❺•', data = IdUser..'/help6'}, 
+{text = '•𝐎𝐖𝐍𝐄𝐑•', data = IdUser..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = IdUser..'/help6'}, 
 },
 {
 {text = '𝗆𝖺𝗂𝗇 𝗅𝗂𝗌𝗍 ⛓️. ', data = IdUser..'/helpall'},
@@ -12551,13 +12553,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = IdUser..'/help1'}, {text = '•❶•', data = IdUser..'/help2'}, 
+{text = '•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘•', data = IdUser..'/help1'}, {text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help2'}, 
 },
 {
-{text = '•❷•', data = IdUser..'/help3'}, {text = '•❸•', data = IdUser..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = IdUser..'/help3'}, {text = '•𝐎𝐖𝐍𝐄𝐑•', data = IdUser..'/help4'}, 
 },
 {
-{text = '•❹•', data = IdUser..'/help5'}, {text = '•❺•', data = IdUser..'/help6'}, 
+{text = '•𝐃𝐄𝐕•', data = IdUser..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = IdUser..'/help6'}, 
 },
 {
 {text = '𝗆𝖺𝗂𝗇 𝗅𝗂𝗌𝗍 ⛓️. ', data = IdUser..'/helpall'},
@@ -12568,7 +12570,7 @@ data = {
 }
 }
 local TextHelp = [[*
-⌔︰•❷• في المجموعه
+⌔︰•𝐋𝐄𝐀𝐃𝐄𝐑• في المجموعه
 ━─━─━─━─━─━─━
 ⌔︰رفع ، تنزيل ˓ ادمن
 ⌔︰الادمنيه 
@@ -12604,13 +12606,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = IdUser..'/help1'}, {text = '•❶•', data = IdUser..'/help2'}, 
+{text = '•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘•', data = IdUser..'/help1'}, {text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help2'}, 
 },
 {
-{text = '•❷•', data = IdUser..'/help3'}, {text = '•❸•', data = IdUser..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = IdUser..'/help3'}, {text = '•𝐎𝐖𝐍𝐄𝐑•', data = IdUser..'/help4'}, 
 },
 {
-{text = '•❹•', data = IdUser..'/help5'}, {text = '•❺•', data = IdUser..'/help6'}, 
+{text = '•𝐃𝐄𝐕•', data = IdUser..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = IdUser..'/help6'}, 
 },
 {
 {text = '𝗆𝖺𝗂𝗇 𝗅𝗂𝗌𝗍 ⛓️. ', data = IdUser..'/helpall'},
@@ -12644,13 +12646,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = IdUser..'/help1'}, {text = '•❶•', data = IdUser..'/help2'}, 
+{text = '•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘•', data = IdUser..'/help1'}, {text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help2'}, 
 },
 {
-{text = '•❷•', data = IdUser..'/help3'}, {text = '•❸•', data = IdUser..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = IdUser..'/help3'}, {text = '•𝐎𝐖𝐍𝐄𝐑•', data = IdUser..'/help4'}, 
 },
 {
-{text = '•❹•', data = IdUser..'/help5'}, {text = '•❺•', data = IdUser..'/help6'}, 
+{text = '•𝐃𝐄𝐕•', data = IdUser..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = IdUser..'/help6'}, 
 },
 {
 {text = '𝗆𝖺𝗂𝗇 𝗅𝗂𝗌𝗍 ⛓️. ', data = IdUser..'/helpall'},
@@ -12699,13 +12701,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = IdUser..'/help1'}, {text = '•❶•', data = IdUser..'/help2'}, 
+{text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help1'}, {text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help2'}, 
 },
 {
-{text = '•❷•', data = IdUser..'/help3'}, {text = '•❸•', data = IdUser..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = IdUser..'/help3'}, {text = '•𝐎𝐖𝐍𝐄𝐑•', data = IdUser..'/help4'}, 
 },
 {
-{text = '•❹•', data = IdUser..'/help5'}, {text = '•❺•', data = IdUser..'/help6'}, 
+{text = '•𝐃𝐄𝐕•', data = IdUser..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = IdUser..'/help6'}, 
 },
 {
 {text = '𝗆𝖺𝗂𝗇 𝗅𝗂𝗌𝗍 ⛓️. ', data = IdUser..'/helpall'},
@@ -12750,13 +12752,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '•⓿•', data = IdUser..'/help1'}, {text = '•❶•', data = IdUser..'/help2'}, 
+{text = '•𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘•', data = IdUser..'/help1'}, {text = '•𝐀𝐃𝐌𝐈𝐍•', data = IdUser..'/help2'}, 
 },
 {
-{text = '•❷•', data = IdUser..'/help3'}, {text = '•❸•', data = IdUser..'/help4'}, 
+{text = '•𝐋𝐄𝐀𝐃𝐄𝐑•', data = IdUser..'/help3'}, {text = '•𝐎𝐖𝐍𝐄𝐑•', data = IdUser..'/help4'}, 
 },
 {
-{text = '•❹•', data = IdUser..'/help5'}, {text = '•❺•', data = IdUser..'/help6'}, 
+{text = '•𝐃𝐄𝐕•', data = IdUser..'/help5'}, {text = '•𝐆𝐀𝐌𝐄𝐒•', data = IdUser..'/help6'}, 
 },
 {
 {text = '𝗆𝖺𝗂𝗇 𝗅𝗂𝗌𝗍 ⛓️. ', data = IdUser..'/helpall'},
